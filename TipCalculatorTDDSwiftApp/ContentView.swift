@@ -55,7 +55,7 @@ struct ContentView: View {
                         tip = formatter.string(from: NSNumber(value: result))
                         
                     } catch TipCalculatorError.invalidInput {
-                        message = "Invalid Error"
+                        message = "Invalid Input"
                     } catch {
                         message = error.localizedDescription
                     }
@@ -66,6 +66,7 @@ struct ContentView: View {
                 
                 Text(message)
                     .padding(.top, 50)
+                    .accessibilityIdentifier("messageText")
                 
                 Spacer()
                 
