@@ -85,6 +85,20 @@ class wen_calculate_tip_button_is_pressed_for_valid_input: XCTestCase {
     
 }
 
+
+//class recording_test: XCTestCase {
+//    func test_recording() {
+//        
+//        let app = XCUIApplication()
+//        app/*@START_MENU_TOKEN@*/.textFields["totalTextField"]/*[[".textFields[\"Enter total\"]",".textFields[\"totalTextField\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+//        app/*@START_MENU_TOKEN@*/.buttons["30%"]/*[[".segmentedControls[\"tipPercentageSegmentedControl\"].buttons[\"30%\"]",".buttons[\"30%\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+//        app/*@START_MENU_TOKEN@*/.buttons["calculateTipButton"]/*[[".buttons[\"Calculate Tip\"]",".buttons[\"calculateTipButton\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+//        
+//     
+//        
+//    }
+//}
+
 class when_calculate_tip_button_is_pressed_for_invalid_input: XCTestCase {
     
     private var app: XCUIApplication!
