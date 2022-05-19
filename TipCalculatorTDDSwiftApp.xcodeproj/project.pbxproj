@@ -16,6 +16,7 @@
 		04CEB2862835637E005DA7D9 /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB28428356358005DA7D9 /* TipCalculator.swift */; };
 		04CEB28E28356F87005DA7D9 /* TipCalculatorTDDSwiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB28D28356F87005DA7D9 /* TipCalculatorTDDSwiftAppUITests.swift */; };
 		04CEB29028356F87005DA7D9 /* TipCalculatorTDDSwiftAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB28F28356F87005DA7D9 /* TipCalculatorTDDSwiftAppUITestsLaunchTests.swift */; };
+		04CEB29C28364B76005DA7D9 /* ContentViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB29B28364B76005DA7D9 /* ContentViewPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		04CEB28B28356F87005DA7D9 /* TipCalculatorTDDSwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTDDSwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CEB28D28356F87005DA7D9 /* TipCalculatorTDDSwiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTDDSwiftAppUITests.swift; sourceTree = "<group>"; };
 		04CEB28F28356F87005DA7D9 /* TipCalculatorTDDSwiftAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTDDSwiftAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04CEB29B28364B76005DA7D9 /* ContentViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,10 +135,19 @@
 		04CEB28C28356F87005DA7D9 /* TipCalculatorTDDSwiftAppUITests */ = {
 			isa = PBXGroup;
 			children = (
+				04CEB29A28364B62005DA7D9 /* Page Objects */,
 				04CEB28D28356F87005DA7D9 /* TipCalculatorTDDSwiftAppUITests.swift */,
 				04CEB28F28356F87005DA7D9 /* TipCalculatorTDDSwiftAppUITestsLaunchTests.swift */,
 			);
 			path = TipCalculatorTDDSwiftAppUITests;
+			sourceTree = "<group>";
+		};
+		04CEB29A28364B62005DA7D9 /* Page Objects */ = {
+			isa = PBXGroup;
+			children = (
+				04CEB29B28364B76005DA7D9 /* ContentViewPage.swift */,
+			);
+			path = "Page Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CEB29C28364B76005DA7D9 /* ContentViewPage.swift in Sources */,
 				04CEB28E28356F87005DA7D9 /* TipCalculatorTDDSwiftAppUITests.swift in Sources */,
 				04CEB29028356F87005DA7D9 /* TipCalculatorTDDSwiftAppUITestsLaunchTests.swift in Sources */,
 			);
